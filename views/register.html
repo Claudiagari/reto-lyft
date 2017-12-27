@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Lyft</title>
+</head>
+<!--Pagina de registro-->
+<body class="register vh100">
+    <div class="container-fluid">
+        <div class="row image-title">
+            <div class="col-xs-2 ">
+                <a href="verify.html">
+                    <img src="../assets/images/return.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1>Sign up</h1>
+                <p>Join now for free ride credit</p>
+            </div>
+        </div>
+        <form action="checkin.html" id="">
+                <div class="form-group">
+            <div class="input-group form-inline col-xs-6 float">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                <input id="firstname" type="text" class="form-control" name="firstname" placeholder="First name">
+            </div>
+            <div class="input-group form-inline  col-xs-6">
+                <input id="lastname" type="text" class="form-control" name="lastname" placeholder="Last name">
+            </div>
+          </div>
+            <div class="input-group ">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-envelope"></i>
+                </span>
+                <input id="email" type="email" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" >I agrree to Lyft's <a href="">Term of Service</a>
+                </label>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-2 col-xs-8 col-xs-offset-2">
+                        <img src="../assets/images/timon.png" class="img-responsive" alt=""> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <button type="submit" class="btn btn-lg btn-block submit text-uppercase" disabled="disabled">next</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="../vendors/jquery/jquery.min.js"></script>
+    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>

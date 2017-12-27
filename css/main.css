@@ -1,0 +1,82 @@
+body {
+	font-family: 'Oswald', sans-serif;
+}
+.background{
+    background:linear-gradient(135deg, rgba(168,0,119,1) 0%, rgba(66,17,55,1) 0%, rgba(252,8,171,1) 90%, rgba(252,8,171,1) 100%);
+} 
+.container-flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 7em;
+}
+.vh100{
+	height: 100vh;
+}
+/*Clases para main page*/
+.main-page{
+    background: url(../assets/images/car-night.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    max-width:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+}
+.main-page .btn-lg{
+    background: transparent;
+    color: #fff;
+}
+/*clases para Sign up */
+.sign-up {
+    height: 100vh;
+    max-width:100vh;
+    padding:2em;
+}
+.codigo{
+    background: transparent;
+}
+.submit{
+    background:linear-gradient(145deg,#ff00bf,#4901b8);
+}
+/*Clases para verify*/
+.verify{
+    padding:1em; 
+}
+.verify .submit {
+    margin-top: 30px;
+}
+/*Clases para register*/
+.image-title{
+    background: url(../assets/images/person.png) no-repeat center center;
+    background-size: cover;
+    height: 25vh;
+    padding: 1em;
+}
+.register form{
+   padding: 0 15px;
+}
+.register .input-group[class*=col-]{
+    float: left;
+}
+.register .col-xs-6:nth-child(2){
+    margin-bottom: 20px;
+}
+/*Clases para check-in*/
+.check-in{
+    background:linear-gradient(145deg,#ff00bf,#4901b8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.check-in h1 {
+    color: #fff;
+    font-weight: 900;
+}
+.check-in .row {
+    padding-bottom:50px;
+}
+.check-in .col-xs-12{
+    padding: 0;
+}

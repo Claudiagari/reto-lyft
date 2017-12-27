@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Lyft</title>
+</head>
+<!--Pagina de ingreso-->
+
+<body class="sign-up">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-2">
+                <a href="mainpage.html">
+                    <img src="../assets/images/return.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1>Sign up</h1>
+                <p>Join now for free ride credit</p>
+                <hr>
+            </div>
+        </div>
+        <form action="verify.html" id="form">
+            <div class="row">
+                <div class="col-lg-6 col-xs-offset-1 col-xs-10 col-xs-offset-1">
+                    <div class="input-group">
+                        <div class="dropdown dropdown-select input-group-btn">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                Country
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">
+                                        <img src="../assets/images/pe.png" class="peru" alt="Responsive image">
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">
+                                        <img src="../assets/images/mx.png" class="mexico" alt="Responsive image">
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">
+                                        <img src="../assets/images/us.png" class="usa" alt="Responsive image">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon codigo" id="basic-addon1">+00</span>
+                            <input type="text" class="form-control phone" placeholder="Phone" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <hr>
+                    <p>We'll send a text to verify your phone</p>
+                    <button  type="submit" class="btn btn-lg btn-block submit text-uppercase" disabled="disabled">next</button>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <img src="../assets/images/car.png" class="img-responsive" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="../vendors/jquery/jquery.min.js"></script>
+    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/signup.js"></script>
+</body>
+
+</html>
