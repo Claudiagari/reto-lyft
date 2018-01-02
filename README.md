@@ -36,7 +36,7 @@ Se tendrá que generar una web-app con la cual uno se registre siguiendo un fluj
 
  ![foto-check](https://fotos.subefotos.com/fb9f5ee4172faa38055b3fb9a435c6efo.jpg)
 
- ## Herramientos 
+ ## Herramientas 
 
  * Visual Studio Code.
  * Bootstrap.
