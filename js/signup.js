@@ -16,7 +16,7 @@ $(document).ready(function() {
   $('.usa').on('click', function() {
     $('.codigo').text('+1');
   });
-  // Validar que sea un numero de 9 digitos empezando por 9 (pensado para celulares en Perú)
+  // Validar que sea un número de 9 digitos empezando por 9 (pensado para celulares en Perú)
   $('.phone').on('input', function() {
     var PHONEVALID = /^9[0-9]{8}$/;
     if (PHONEVALID.test($(this).val()) === true) {
@@ -25,11 +25,13 @@ $(document).ready(function() {
       $('.submit').attr('disabled', 'disabled');
     }
   });
-  // funcion para generar numeros aleatorios de 3 digitos
+  // funcion para generar números aleatorios de 3 digitos
   function generar(longitud) {
     var caracteres = '0123456789';
     var contraseña = '';
-    for (i = 0; i < longitud; i++) contraseña += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+    for (i = 0; i < longitud; i++) {
+      contraseña += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+    };
     return contraseña;
   }
   var code = generar((3));

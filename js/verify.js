@@ -1,4 +1,6 @@
+// Cargando documento
 $(document).ready(function() {
+  // Obteniendo el codigo para compararlo
   $('.code').on('input', function() {
     var code = localStorage.getItem('codeNum');
     console.log(code);
@@ -12,7 +14,9 @@ $(document).ready(function() {
   function generar(longitud) {
     var caracteres = '0123456789';
     var contraseña = '';
-    for (i = 0; i < longitud; i++) contraseña += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+    for (i = 0; i < longitud; i++) {
+      contraseña += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+    };
     return contraseña;
   }
   var code = generar((3));
