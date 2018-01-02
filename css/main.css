@@ -17,8 +17,7 @@ body {
 .main-page{
     background: url(../assets/images/car-night.jpg) no-repeat center center;
     background-size: cover;
-    height: 100vh;
-    max-width:100vh;
+     max-width:100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,8 +29,8 @@ body {
 }
 /*clases para Sign up */
 .sign-up {
-    height: 100vh;
-    max-width:100vh;
+    height: 100%;
+    max-width:100%;
     padding:2em;
 }
 .codigo{
