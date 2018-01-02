@@ -1,5 +1,5 @@
 body {
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .background{
     background:linear-gradient(135deg, rgba(168,0,119,1) 0%, rgba(66,17,55,1) 0%, rgba(252,8,171,1) 90%, rgba(252,8,171,1) 100%);
@@ -17,7 +17,7 @@ body {
 .main-page{
     background: url(../assets/images/car-night.jpg) no-repeat center center;
     background-size: cover;
-     max-width:100%;
+    max-width:100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
